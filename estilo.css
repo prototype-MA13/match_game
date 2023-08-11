@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('imagenes/fondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;  
+}
+
+.grid {
+	height: 560px;
+	width: 560px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+  	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  	backdrop-filter: blur(10px);
+}
+
+.grid div {
+	height: 70px;
+	width: 70px;
+	background-repeat: no-repeat;
+}
+
+.puntaje-container {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid #FF6A99;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  color: #FF6A99;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+#rojo {
+  background-image: url('imagenes/rojo.png');
+  display: none;
+}
+
+#verde {
+  background-image: url('imagenes/verde.png');
+  display: none;
+}
+
+#rosa {
+  background-image: url('imagenes/rosa.png');
+  display: none;
+}
+
+#amarillo {
+  background-image: url('imagenes/amarillo.png');
+  display: none;
+}
+
+#azul {
+  background-image: url('imagenes/azul.png');
+  display: none;
+}
+
+#morado {
+  background-image: url('imagenes/morado.png');
+  display: none;
+}
